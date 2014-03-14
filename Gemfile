@@ -46,6 +46,11 @@ gem 'dalli'
 # SCSS mixins for CSS3 browser compatibility
 gem 'bourbon'
 
+# Authentication
+gem 'omniauth', '~> 1.2.1'
+gem 'omniauth-openid', '~> 1.0.1'
+gem 'omniauth-google-oauth2', '~> 0.2.2'
+
 group :development, :test do
   gem 'rspec-rails'
   gem 'rspec-rerun'
